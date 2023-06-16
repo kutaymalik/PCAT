@@ -5,7 +5,8 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,10 @@
   },
   "homepage": "https://github.com/kutaymalik/PCAT#readme",
   "devDependencies": {
+    "nodemon": "^2.0.22",
     "prettier": "2.8.8"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
